@@ -1,0 +1,41 @@
+/* style.css */
+
+/* Custom scrollbar for a slick look */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #0A1128; /* Dark navy for scrollbar */
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1B2A41; /* Slightly lighter navy on hover */
+}
+
+/* Consistent padding for sections */
+.section-padding {
+    padding: 80px 0;
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Fade-in animation */
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 0;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

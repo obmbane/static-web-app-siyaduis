@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siyadumisa Trading - Engineering Excellence</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to external custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-[#0A1128] text-white shadow-lg fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <!-- Company Logo Placeholder -->
+                <img src="static/logo.png" alt="Siyadumisa Trading Logo" class="h-10 w-auto rounded-md">
+                <a href="#hero" class="text-2xl font-bold tracking-wide">Siyadumisa Trading</a>
+            </div>
+            <div class="md:flex space-x-6">
+                <a href="#about" class="block md:inline-block hover:text-[#7A9BBC] py-2">About Us</a>
+                <a href="#services" class="block md:inline-block hover:text-[#7A9BBC] py-2">Services</a>
+                <a href="#products" class="block md:inline-block hover:text-[#7A9BBC] py-2">Products</a>
+                <a href="#contact" class="block md:inline-block hover:text-[#7A9BBC] py-2">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-cover bg-center h-screen flex items-center justify-center text-center"
+        style="background-image: url('static/plant.jpg');">
+        <div class="absolute inset-0 bg-[#0A1128] opacity-70"></div>
+        <div class="relative z-10 text-white p-8 rounded-lg animate-fade-in max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
+                ENGINEERING EXCELLENCE
+            </h1>
+            <p class="text-lg md:text-xl mb-8 drop-shadow-md">
+                Your trusted partner in high-quality engineering equipment and professional services.
+            </p>
+            <a href="#contact" class="bg-[#344966] hover:bg-[#273B5B] text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section-padding bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-[#0A1128] mb-12 animate-fade-in">About Siyadumisa Trading</h2>
+            <div class="flex flex-col items-center gap-10">
+                <!-- Text paragraphs in horizontally aligned tiles -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+                    <div class="p-6 bg-gray-100 rounded-lg shadow-md card animate-fade-in" style="animation-delay: 0.2s;">
+                        <p class="text-sm md:text-base lg:text-lg leading-relaxed">
+                            Siyadumisa Trading, founded in 2022, is a proudly South African company specializing in the supply of engineering equipment and a broad range of professional engineering services. We are 100% black female-owned and operated, with a strong commitment to excellence, innovation, and service delivery.
+                        </p>
+                    </div>
+                    <div class="p-6 bg-gray-100 rounded-lg shadow-md card animate-fade-in" style="animation-delay: 0.4s;">
+                        <p class="text-sm md:text-base lg:text-lg leading-relaxed">
+                            Backed by a leadership team and technical experts with over 20 years of collective experience, we bring deep cross-industry knowledge and a practical approach to every project. Our focus is on providing high-quality, cost-effective solutions tailored to meet the specific needs of our clients.
+                        </p>
+                    </div>
+                    <div class="p-6 bg-gray-100 rounded-lg shadow-md card animate-fade-in" style="animation-delay: 0.6s;">
+                        <p class="text-sm md:text-base lg:text-lg leading-relaxed">
+                            We pride ourselves on delivering engineering products and services that align with customer specifications, timelines, and expectations — ensuring consistent quality, reliability, and long-term value for both public and private sector clients. At Siyadumisa Trading, we are dedicated to engineering solutions that enable growth, efficiency, and success.
+                        </p>
+                    </div>
+                </div>
+                <!-- Image below the text tiles -->
+                <div class="w-full mt-10 animate-fade-in" style="animation-delay: 0.8s;">
+                    <!-- Reduced width and centered the image -->
+                    <img src="static/logo.png" alt="Siyadumisa Trading Team" class="rounded-lg shadow-xl max-w-3xl block mx-auto h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="section-padding bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-[#0A1128] mb-12 animate-fade-in">What We Do</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-white rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.2s;">
+                    <h3 class="text-xl font-semibold text-[#1B2A41] mb-4">
+                        Procurement & Sourcing
+                    </h3>
+                    <p class="text-gray-700">Source a wide range of high-quality engineering equipment and components directly from trusted manufacturers, both locally and internationally.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.4s;">
+                    <h3 class="text-xl font-semibold text-[#1B2A41] mb-4">
+                        Product Specification & Design
+                    </h3>
+                    <p class="text-700">Assist clients in designing engineering systems and choosing the right equipment based on technical requirements and compliance standards.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.6s;">
+                    <h3 class="text-xl font-semibold text-[#1B2A41] mb-4">
+                        Fabrication & Turnkey Solutions
+                    </h3>
+                    <p class="text-gray-700">Deliver turnkey engineering solutions from concept to commissioning, ensuring seamless integration and on-time delivery.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.8s;">
+                    <h3 class="text-xl font-semibold text-[#1B2A41] mb-4">
+                        Maintenance
+                    </h3>
+                    <p class="text-gray-700">Provide comprehensive maintenance solutions that enhance plant performance, safety, and uptime, including on-site and off-site repairs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Products Section -->
+    <section id="products" class="section-padding bg-[#0A1128] text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 animate-fade-in">Our Products</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product Category 1: Chemical Products & Equipment -->
+                <div class="bg-[#1B2A41] p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.2s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Chemical Products & Equipment
+                    </h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Water Treatment Chemicals</li>
+                        <li>Lubricants & Greases</li>
+                        <li>Polymers & Resins</li>
+                        <li>Chemical Storage Equipment</li>
+                    </ul>
+                </div>
+
+                <!-- Product Category 2: Instrumentation & Control Equipment -->
+                <div class="bg-[#1B2A41] p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.4s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Instrumentation & Control Equipment
+                    </h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Pressure Instrumentation</li>
+                        <li>Temperature Instrumentation</li>
+                        <li>Level Instrumentation</li>
+                        <li>Flow Instrumentation</li>
+                        <li>Process Control Equipment</li>
+                    </ul>
+                </div>
+
+                <!-- Product Category 3: Mechanical & Electrical Equipment -->
+                <div class="bg-[#1B2A41] p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.6s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Mechanical & Electrical Equipment
+                    </h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Step-down Transformers</li>
+                        <li>Pumps & Valves</li>
+                        <li>Motors</li>
+                        <li>Variable Speed Drives (VSDs)</li>
+                        <li>Soft Starters</li>
+                    </ul>
+                </div>
+
+                <!-- Product Category 4: Renewable Energy Equipment -->
+                <div class="bg-[#1B2A41] p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.8s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Renewable Energy Equipment
+                    </h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Solar Panels</li>
+                        <li>Solar Inverters</li>
+                        <li>Solar Batteries</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section (Accordion Style for detail) -->
+    <section id="services" class="section-padding bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-[#0A1128] mb-12 animate-fade-in">Our Core Services</h2>
+
+            <div class="space-y-12">
+                <!-- Service: Electrical -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 w-full">
+                    <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.2s;">
+                        <h3 class="text-2xl font-semibold text-[#1B2A41] mb-4">
+                            Electrical Services
+                        </h3>
+                        <ul class="list-disc list-inside ml-6 text-gray-700 space-y-1">
+                            <li>High Voltage (HV) and Low Voltage (LV) Systems design, installation, and commissioning (11kV, 22kV, substations).</li>
+                            <li>Motor Control Centers & VSD Systems supply, configuration, and maintenance.</li>
+                            <li>Industrial Wiring & Power Reticulation.</li>
+                            <li>Structured cabling, gland terminations, armored cable routing.</li>
+                            <li>Control Panel Design and Refurbishment (PLCs, HMI, safety relays).</li>
+                            <li>Power Quality & Load Studies (diagnostics, recommendations).</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-fade-in" style="animation-delay: 0.3s;">
+                        <img src="static/electrical.jpg" alt="Electrical Services" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+
+                <!-- Service: Industrial Automation -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 w-full">
+                    <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.4s;">
+                        <h3 class="text-2xl font-semibold text-[#1B2A41] mb-4">
+                            Industrial Automation
+                        </h3>
+                        <ul class="list-disc list-inside ml-6 text-gray-700 space-y-1">
+                            <li>PLC programming and installations, Distributed Control Systems (DCS) and SCADA.</li>
+                            <li>Pressure Instrumentation (gauges, transducers, switches).</li>
+                            <li>Temperature Instrumentation (bimetal, gas-filled, resistance thermometers).</li>
+                            <li>Level Instrumentation (capacitive, ultrasonic, radar, vibration).</li>
+                            <li>Flow Instrumentation (electromagnetic, Coriolis, ultrasonic, rotary piston, orifice).</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-fade-in" style="animation-delay: 0.5s;">
+                        <img src="static/IA3.jpg" alt="Industrial Automation" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+
+                <!-- Service: Mechanical Services -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 w-full">
+                    <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.6s;">
+                        <h3 class="text-2xl font-semibold text-[#1B2A41] mb-4">
+                            Mechanical Services
+                        </h3>
+                        <ul class="list-disc list-inside ml-6 text-gray-700 space-y-1">
+                            <li>Condition Monitoring (vibration, oil sampling, thermographic inspections).</li>
+                            <li>Pump & Valve Installation and Maintenance.</li>
+                            <li>Laser Alignment & Fan Balancing.</li>
+                            <li>Shaft Machining & Mechanical Rework.</li>
+                            <li>Gearbox & Hydraulic Cylinder Repairs.</li>
+                            <li>Pipe Coating & Corrosion Testing.</li>
+                            <li>Compressor Repairs & Servicing.</li>
+                            <li>Tank and Pipe Cladding & Insulation.</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-fade-in" style="animation-delay: 0.7s;">
+                        <img src="static/mech.jpg" alt="Mechanical Services" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+
+                <!-- Service: Boiler Support & Maintenance -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 w-full">
+                    <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.8s;">
+                        <h3 class="text-2xl font-semibold text-[#1B2A41] mb-4">
+                            Boiler Support & Maintenance
+                        </h3>
+                        <ul class="list-disc list-inside ml-6 text-gray-700 space-y-1">
+                            <li>Boiler Inspection and Assessment, Preventive Maintenance.</li>
+                            <li>Boiler Cleaning and Tune-Ups, Efficiency Optimisation.</li>
+                            <li>Parts Replacement and Upgrades, Water Treatment Services.</li>
+                            <li>Combustion Analysis, Compliance with Local Regulations.</li>
+                            <li>Stocker Repairs & Maintenance, 24/7 emergency repair services.</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-fade-in" style="animation-delay: 0.9s;">
+                        <img src="static/boiler.png" alt="Boiler Support" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+
+                <!-- Service: Fabrication -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 w-full">
+                    <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 1.0s;">
+                        <h3 class="text-2xl font-semibold text-[#1B2A41] mb-4">
+                            Fabrication
+                        </h3>
+                        <ul class="list-disc list-inside ml-6 text-gray-700 space-y-1">
+                            <li>Custom Metalwork (high-quality, precision-engineered components).</li>
+                            <li>Skid-Mounted Systems (pre-assembled process systems).</li>
+                            <li>Structural Steel Fabrication (beams, columns, trusses for industrial facilities).</li>
+                            <li>Welding Services (MIG, TIG, stick welding by qualified welders).</li>
+                            <li>Cutting, Bending, and Rolling (CNC plasma/laser, press brake, plate rolling).</li>
+                            <li>Piping Fabrication (prefabricated and site-fabricated pipe sections).</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-fade-in" style="animation-delay: 1.1s;">
+                        <img src="static/FAB2.jpg" alt="Fabrication" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+
+                <!-- Service: Shutdown & Daily Maintenance Support -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-8 w-full">
+                    <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 1.2s;">
+                        <h3 class="text-2xl font-semibold text-[#1B2A41] mb-4">
+                            Shutdown & Daily Maintenance Support
+                        </h3>
+                        <ul class="list-disc list-inside ml-6 text-gray-700 space-y-1">
+                            <li>Pre-shutdown inspections, detailed planning, rapid mobilization.</li>
+                            <li>Execution of mechanical, electrical, instrumentation tasks, safety compliance.</li>
+                            <li>Post-shutdown commissioning, close-out reporting.</li>
+                            <li>24/7 emergency breakdown response, on-site fitters, electricians, boiler technicians.</li>
+                            <li>Preventive & corrective maintenance, lubrication, vibration checks.</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 animate-fade-in" style="animation-delay: 1.3s;">
+                        <img src="static/maintenance.jpg" alt="Shutdown & Daily Maintenance Support" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision, Mission & Values Section - MOVED TO HERE -->
+    <section id="vision-mission-values" class="section-padding bg-gradient-to-r from-[#0A1128] to-[#273B5B] text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 animate-fade-in">Our Vision, Mission & Values</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 bg-[#1B2A41] rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.2s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Vision
+                    </h3>
+                    <p class="text-lg">
+                        To be the leading partner in delivering innovative, reliable, and sustainable engineering solutions that power progress across industries and communities.
+                    </p>
+                </div>
+                <div class="p-6 bg-[#1B2A41] rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.4s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Mission
+                    </h3>
+                    <p class="text-lg">
+                        To provide high-quality engineering equipment and world-class service solutions that help our clients achieve operational excellence.
+                    </p>
+                </div>
+                <div class="p-6 bg-[#1B2A41] rounded-lg shadow-xl card animate-fade-in" style="animation-delay: 0.6s;">
+                    <h3 class="text-2xl font-semibold mb-4">
+                        Values
+                    </h3>
+                    <ul class="text-lg list-none p-0 space-y-2">
+                        <li>Integrity</li>
+                        <li>Quality</li>
+                        <li>Reliability</li>
+                        <li>Innovation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section-padding bg-[#0A1128] text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 animate-fade-in">Contact Us</h2>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-6 animate-fade-in" style="animation-delay: 0.2s;">
+                    <p class="text-lg">
+                        Thank you for your interest in Siyadumisa Trading. For more information about our engineering solutions and services, please feel free to reach out to us using the details below:
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <!-- Phone Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#5A7A9F]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        <span class="text-xl">+27 68 737 7022 / +27 78 917 2145</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- Mail Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#5A7A9F]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.893 5.262A2 2 0 0012 14a2 2 0 001.107-.493L21 8m-18 0a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
+                        </svg>
+                        <a href="mailto:info@siyadumisatrading.co.za" class="text-xl hover:underline">info@siyadumisatrading.co.za</a>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <!-- Location Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#5A7A9F]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span class="text-xl">24 Kerk Street, Endelia Court, 510 Brits</span>
+                    </div>
+                </div>
+                <div class="flex justify-center animate-fade-in" style="animation-delay: 0.4s;">
+                    <img src="static/logo.png" alt="Contact Us" class="rounded-lg shadow-xl w-full max-w-sm h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Siyadumisa Trading. All rights reserved.</p>
+            <p class="mt-2">Engineering Excellence</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in-active');
+                } else {
+                    entry.target.classList.remove('animate-fade-in-active'); // Optional: reset animation if not intersecting
+                }
+            });
+        }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+
+        document.querySelectorAll('.animate-fade-in').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
